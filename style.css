@@ -1,0 +1,51 @@
+body{
+   background-color:#ffffff;
+   font-family:Arial,sans-serif;
+   margin:30px;
+}
+header{
+    background-colour:rgba(55, 61, 245, 0);
+    color:rgb(112, 124, 39);
+    text-align:center;
+    padding:20px;
+}
+h2{
+    colour:rgb(66, 66, 73);
+}
+p{
+    font-size:18px;
+}
+table{                                                            
+
+    width:500px;
+    border-collapse:collapse;
+}
+th{
+    background-colour:navy;
+    color:rgb(21, 18, 18);
+}
+th,td{
+    padding:10px;
+    text-align:center;
+}
+input,textarea{
+    width:300px;
+    padding:8px;
+}
+button{
+    background-color:black;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color:green;
+}
+footer{
+    text-align:center;
+    margin-top:20px;
+    
+}
+
