@@ -107,6 +107,11 @@ footer{
     }
 }
 @media(max-width:768px){
+    nav{
+
+        flex-direction:column;
+
+    }
     .project-container{
         grid-template-columns:1fr;
     }
