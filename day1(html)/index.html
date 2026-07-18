@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="../day2(css),day3/style.css">
+    </head>
 <body>
     <!--Header Section-->
        <header>
-        <h1>Welcome to My Portfolio</h1>
+        <h1 id="title">Welcome to My Portfolio</h1>
         <p>Hello!I am Abignaya,a Computer Science student.</p>
        </header>
+       <h1 id="greeting" ></h1>
+       <h1 id="date1"></h1>
        <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -23,9 +26,10 @@
         <p>
             I am Computer Science student at Sreyas Institution of Engineering and Technology.I am passionate about coding .I have experience in HTML,CSS,JavaScript and Java.I am always eager to learn new technologies and improve my skills.
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYJVApOuHyIpN3OO8gvZ4gAPk3agdsBkQVWTf0Tm2JLA&s=10" alt="summer code" width="100" height="100">
+
         </p>
-       </section >
-       <hr>
+    </section >
+    <hr>
        <section id="skills">
         <h1>My Skills</h1>
            <ul>
@@ -82,20 +86,28 @@
         <form>
         <h2>Contact Me</h2>
         <label>Name:</label><br>
-        <input type="text" placeholder="Enter the name"><br>
+        <input id="name" type="text" placeholder="Enter the name"><br>
         <br>
         <label>Email:</label><br>
-        <input type="text" placeholder="Enter the email"><br>
+        <input id="email" type="text" placeholder="Enter the email"><br>
         <br>
         <label>Message:</label><br>
-        <textarea row="1" col="30"></textarea><br>
+        <textarea id="msg" row="4" cols="30"></textarea><br>
         <br>
-        <button type="Submit">Submit</button>
+        <button id="submitBtn" type="button">Click Me</button>
+        <p id="count">Button Clicked:0 Times</p>
         </form>
        </section>
        <hr>
+       <section>
+        <button id="btn">Click</button>
+       </section>
        <footer>
-        <p>@2026 My Portfolio</p>
+        <p>@2026 My Portfolio</p><br>
+        <p id="date"></p>
         </footer>
+        
+       <script src="../day3/script.js"></script>
+    
     </body>
 </html>
