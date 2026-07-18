@@ -1,0 +1,12 @@
+body{
+   background-color:#f2e8e8;
+   font-family:Arial,sans-serif;
+   margin:30px;
+}
+header{
+    background-color:rgba(55, 61, 245, 0);
+    color:rgb(112, 124, 39);
+    text-align:center;
+    padding:20px;
+    animation:fadeIn 1s ease-in-out;
+}

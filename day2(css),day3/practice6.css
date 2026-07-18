@@ -1,0 +1,27 @@
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-50px);
+    }
+    to{
+        opacity:1;
+        transform:translate(0);
+    }
+}
+@media(max-width:768px){
+    nav{
+
+        flex-direction:column;
+
+    }
+    .project-container{
+        grid-template-columns:1fr;
+    }
+    table{
+        font-size:14px;
+    }
+    input,
+    textarea{
+        width:100%;
+    }
+}
