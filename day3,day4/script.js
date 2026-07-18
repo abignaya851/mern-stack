@@ -1,5 +1,4 @@
 window.onload = function () {
-
   alert("Welcome to my portfoilo");
   showGreeting();
   showDate();
@@ -7,17 +6,17 @@ window.onload = function () {
     this.style.color="red";
 }
 };
-
 function showDate(){
 let today=new Date();
 document.getElementById("date").innerHTML="Today's Date:"+today.toDateString();
 document.getElementById("date1").innerHTML=today.toDateString();
+document.getElementById("data").inner
 }
 function showGreeting(){
     let hour=new Date().getHours();
     if(hour<12){
         document.getElementById("greeting").innerHTML="Good Morning";
-} 
+}
 else if(hour<18){
     document.getElementById("greeting").innerHTML="Good Aternoon";
 }  else{
@@ -30,10 +29,18 @@ function countClick(){
     count++;
     document.getElementById("count").innerHTML="Button Clicked: "+ count +" Times";
 }
+let heading=document.getElementById("title");
 let btn=document.getElementById("btn");
+let mouse=document.getElementById("move");
 btn.addEventListener("click",function(){
-alert("Button Clicked");
+     heading.style.color="Black";
+     });
+mouse.addEventListener("mouseover",function(){
+    mouse.style.color="red";        
 });
+    //heading.innerText="my Portfolio"
+//alert("Button Clicked");
+
 document.getElementById("submitBtn").addEventListener("click",function(){
     countClick();
     let name=document.getElementById("name").value.trim();
@@ -44,5 +51,8 @@ document.getElementById("submitBtn").addEventListener("click",function(){
     }
     alert("Form Submitted Successfully");
 });
+
+
+
 
 
